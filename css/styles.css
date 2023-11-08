@@ -674,6 +674,7 @@ display: flex;
 .sub_button {
     display: flex;
     gap: 24px;
+
 }
 
 
@@ -681,6 +682,7 @@ display: flex;
     border-radius: 4px;
     border: 1px solid #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
 
 
 }
@@ -710,9 +712,15 @@ input {
 
 .sub_btn {
 
-    padding: 8px 24px;
     border-radius: 4px;
     background: #4D5AE5;
+
+    padding: 8px 24px;
+    gap: 16px;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
 
 
 
