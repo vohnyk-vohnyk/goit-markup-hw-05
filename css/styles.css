@@ -574,6 +574,7 @@ li .trans_par:hover {
 
     justify-content: center;
     gap: 16px;
+    margin-right: 62px;
 
 }
 
@@ -656,4 +657,71 @@ li .trans_par:hover {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
+}
+
+/* sub form */
+
+
+
+.subscribe {
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    margin-right: 42px;
+
+}
+.sub_button {
+    display: flex;
+    gap: 24px;
+}
+
+
+.sub_email {
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+
+}
+
+.sub_p {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+
+
+
+
+}
+
+input {
+    background: transparent;
+    width: 264px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+
+
+.sub_btn {
+
+    padding: 8px 24px;
+    border-radius: 4px;
+    background: #4D5AE5;
+
+
+
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
 }
