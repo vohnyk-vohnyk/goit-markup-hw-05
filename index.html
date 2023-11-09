@@ -511,17 +511,51 @@
             <div class="sub_button">
                 <input class="sub_email" type="email" name="email" placeholder="E-mail"/></label>
                 <button class="sub_btn" type="sumbit">
-                Subscribe<svg class="sub_icon" width="24" height="24">
+                    Subscribe
+                    <svg class="sub_icon" width="24" height="24">
                         <use href="./images/icons.svg#icon-Frame">
 
-                        </use></button>
+                        </use>
+                </button>
             </div>
         </div>
-
 
 
     </div>
 
 </footer>
+<div class="backdrop is-open">
+    <div class="modal">
+        <button class="modal_close_btn" type="button" aria-label="modal close button" width="24" height="24">
+            <svg class="icon-close" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+        </svg></button>
+        <form class="modal" name="modal" autocomplete="on">
+        <p>Leave your contacts and we will call you back</p>
+        <label class="label_name">
+            <span class="label_name_sp">Name</span>
+            <input class="inp_name" type="text" name="name"  />
+        </label>
+        <label class="label_name">
+            <span class="label_phone_sp">Phone</span>
+            <input class="inp_phone" type="tel" name="phone"  />
+        </label>
+        <label class="label_name">
+            <span class="label_email_sp">Email</span>
+            <input class="inp_mail" type="text" name="email"  />
+        </label>
+        <label>
+            <input type="radio" name="policy" value="policy"/>I accept the terms and conditions of the Privacy Policy
+        </label>
+        <label>
+            Comment
+            <textarea name="comment" rows="8" placeholder="Text input"></textarea>
+        </label>
+        <button class="btn_modal" type="sumbit">Send</button>
+        </form>
+
+    </div>
+</div>
+
 </body>
 </html>
