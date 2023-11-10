@@ -528,31 +528,41 @@
     <div class="modal">
         <button class="modal_close_btn" type="button" aria-label="modal close button" width="24" height="24">
             <svg class="icon-close" width="8" height="8">
-            <use href="./images/icons.svg#icon-close"></use>
-        </svg></button>
-        <form class="modal" name="modal" autocomplete="on">
-        <p>Leave your contacts and we will call you back</p>
-        <label class="label_name">
-            <span class="label_name_sp">Name</span>
-            <input class="inp_name" type="text" name="name"  />
-        </label>
-        <label class="label_name">
-            <span class="label_phone_sp">Phone</span>
-            <input class="inp_phone" type="tel" name="phone"  />
-        </label>
-        <label class="label_name">
-            <span class="label_email_sp">Email</span>
-            <input class="inp_mail" type="text" name="email"  />
-        </label>
-        <label>
-            <input type="radio" name="policy" value="policy"/>I accept the terms and conditions of the Privacy Policy
-        </label>
-        <label>
-            Comment
-            <textarea name="comment" rows="8" placeholder="Text input"></textarea>
-        </label>
-        <button class="btn_modal" type="sumbit">Send</button>
+                <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+        </button>
+
+        <p class="modal_text">Leave your contacts and we will call you back</p>
+
+        <form class="modal_form">
+            <div class="modal_form_name">
+                <label class="lbl_name" for="user_name">Name</label>
+                <input class="input_name" type="text" name="user_name" id="user_name">
+            </div>
+
+            <div class="modal_form_tel">
+                <label class="lbl_tel" for="user_tel">Phone</label>
+                <input class="input_tel" type="tel" name="user_tel" id="user_tel">
+            </div>
+
+            <div class="modal_form_email">
+                <label class="lbl_email" for="user_tel">Email</label>
+                <input class="input_email" type="email" name="user_tel" id="user_tel" pattern="[a-zA-Zа-яА-ЯіІїЇєЄ'йЙ]">
+            </div>
+            <div class="modal_form_comment">
+                <label class="lbl_comment" for="user_comment">Comment</label>
+                <textarea class="form_comment" placeholder="Text input" name="user_comment" id="user_comment"></textarea>
+            </div>
+            <div>
+                <input type="checkbox" class="reviev-form-checkbox" name="user_policy" value="true" id="user_policy">
+                <label class="reviev-form-checkbox-label" for="user_policy">I accept the terms and conditions of the <a
+                        class="privacy-policy-link">Privacy Policy</a></label>
+            </div>
+            <button class="reviev-form-btn" type="submit">Send</button>
+
+
         </form>
+
 
     </div>
 </div>
