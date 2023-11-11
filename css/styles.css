@@ -822,15 +822,12 @@ input {
 .modal_close_btn:focus {
     background-color: #404BBF;
     border: none;
-
-
-}
-
-.icon-close:hover,
-.icon-close:active {
     fill: #ffffff;
 
+
 }
+
+
 
 .modal_text {
     width: 360px;
@@ -965,11 +962,11 @@ input {
     fill: transparent;
 }
 
-.reviev-form-checkbox:checked {
+.reviev-form-checkbox[type="checkbox"]:checked {
     border: none;
 }
 
-.reviev-form-checkbox:checked + .checkbox_span {
+.reviev-form-checkbox[type="checkbox"]:checked + .checkbox_span {
     fill: #F4F4FD;;
 }
 
