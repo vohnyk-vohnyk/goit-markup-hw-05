@@ -607,7 +607,7 @@
             </div>
 
 
-            <div class="modal_form_comment">
+            <div class="modal_form_field">
                 <label
                         class="lbl_name"
                         for="user-comment">Comment</label>
@@ -618,16 +618,20 @@
                         id="user-comment"></textarea>
             </div>
 
-            <div class="checkbox_cont">
+            <div class="modal_form_field">
                 <input
-                        class="reviev-form-checkbox visually-hidden"
+                        class="review-form-checkbox visually-hidden"
                         type="checkbox"
                         name="user-privacy"
                         value="true"
                         id="user-privacy">
-                <label class="reviev-form-checkbox-label"
-                        for="user-privacy"> <span class="checkbox_span">
-                        <svg class="checkbox_icon" width="10" height="8">
+                <label class="review-form-checkbox-label"
+                        for="user-privacy">
+                    <span class="checkbox_span">
+                        <svg
+                                class="review-form-own-checkbox"
+                             width="16"
+                             height="16">
                             <use href="./images/icons.svg#icon-chekmark"></use>
                         </svg>
                     </span>I accept the terms and conditions of the
@@ -636,7 +640,7 @@
                    </label>
             </div>
 
-            <button class="reviev-form-btn" type="submit">Send</button>
+            <button class="review-form-btn" type="submit" checked>Send</button>
 
 
         </form>
