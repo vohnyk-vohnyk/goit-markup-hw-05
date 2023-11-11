@@ -671,7 +671,6 @@ li .trans_par:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 16px;
     margin-right: 42px;
 
 }
@@ -690,20 +689,44 @@ li .trans_par:hover {
     border: 1px solid #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 
+}
 
+.imput_sub_email::placeholder {
+    color: #ffffff;
 }
 
 .sub_p {
     color: #FFF;
-    font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.32px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+}
+
+/* form */
+
+.form_sub {
+    display: flex;
+    gap: 24px;
+}
+.imput_sub_email {
+    width: 264px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    color: #ffffff;
 
 
 }
+
 
 input {
     background: transparent;
@@ -714,26 +737,25 @@ input {
 
 
 .sub_btn {
-
-    border-radius: 4px;
-    background: #4D5AE5;
-
-    padding: 8px 24px;
-    gap: 16px;
-
+    min-width: 165px;
+    height: 40px;
     display: flex;
-    text-align: center;
     justify-content: center;
-
-
-    color: #FFF;
-    text-align: center;
-    font-family: Roboto;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.64px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+}
+
+.sub_icon {
+    margin-left: 16px;
 }
 
 /* modal */
