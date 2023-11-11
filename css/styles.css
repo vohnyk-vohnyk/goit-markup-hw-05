@@ -939,7 +939,7 @@ input {
 
 }
 
-.review-form-checkbox-wrapper {
+.checkbox_cont {
     margin-bottom: 24px;
 }
 
@@ -948,14 +948,6 @@ input {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-}
-
-.review-form-checkbox:checked
-+ .review-form-checkbox-label
-.review-form-own-checkbox {
-    background-color: #404bbf;
-    fill: #F4F4FD;
-    border: none;
 }
 
 .checkbox_span {
@@ -970,11 +962,11 @@ input {
     fill: transparent;
 }
 
-.reviev-form-checkbox input[type="checkbox"]:checked {
+.reviev-form-checkbox[type="checkbox"]:checked {
     border: none;
 }
 
-.reviev-form-checkbox input[type="checkbox"]:checked + .checkbox_span {
+.reviev-form-checkbox[type="checkbox"]:checked + .checkbox_span {
     fill: #F4F4FD;;
 }
 
@@ -985,7 +977,7 @@ input {
 
 }
 
-.review-form-btn {
+.reviev-form-btn {
     display: block;
     height: 56px;
     font-family: "Roboto", sans-serif;
