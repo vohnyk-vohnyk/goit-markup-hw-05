@@ -962,11 +962,11 @@ input {
     fill: transparent;
 }
 
-.reviev-form-checkbox[type="checkbox"]:checked {
+.reviev-form-checkbox input:checked {
     border: none;
 }
 
-.reviev-form-checkbox[type="checkbox"]:checked + .checkbox_span {
+.reviev-form-checkbox input:checked + .checkbox_span {
     fill: #F4F4FD;;
 }
 
