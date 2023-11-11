@@ -54,9 +54,9 @@ body {
     border-bottom: 1px solid #e7e9fc;
     color: #2E2F42;
 
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 1px 6px rgba(46, 47, 66, 0.08);
+    box-shadow: 0 2px 1px rgba(46, 47, 66, 0.08),
+    0 1px 1px rgba(46, 47, 66, 0.16),
+    0 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 
@@ -228,7 +228,6 @@ body {
 .promo-text {
     color: #FFF;
     text-align: center;
-    font-family: Roboto;
     font-size: 56px;
     font-weight: 700;
     margin-bottom: 48px;
@@ -336,8 +335,8 @@ body {
 .team_li {
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 
 
 }
@@ -592,16 +591,10 @@ li .trans_par:hover {
 }
 
 .social_media_name {
-    color: #FFF;
-    font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.32px;
     text-align: start;
-    font-weight: 500;
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
@@ -711,6 +704,7 @@ li .trans_par:hover {
     display: flex;
     gap: 24px;
 }
+
 .imput_sub_email {
     width: 264px;
     height: 40px;
@@ -807,7 +801,6 @@ input {
 .modal_close_btn {
     border-radius: 50%;
     line-height: 0;
-    padding: 8px;
     position: absolute;
     top: 24px;
     right: 24px;
@@ -829,8 +822,6 @@ input {
 .modal_close_btn:focus {
     background-color: #404BBF;
     border: none;
-
-
 
 
 }
@@ -880,7 +871,6 @@ input {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
-
 }
 
 .input_field:focus {
@@ -892,15 +882,15 @@ input {
 .input_field:focus + .review_form_field_icon {
     fill: #4D5AE5;
 }
+
 .modal_form_field {
     margin-bottom: 8px;
 
 
 }
+
 .review_form_field_icon {
     fill: #2E2F42;
-    width: 18px;
-    height: 24px;
     position: absolute;
     top: 50%;
     left: 16px;
@@ -920,6 +910,7 @@ input {
     margin-bottom: 16px;
 
 }
+
 .form_comment {
     width: 100%;
     height: 120px;
@@ -936,30 +927,32 @@ input {
     line-height: 1.17;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
 }
 
 
+.form_comment::placeholder {
+    color: rgba(46, 47, 66, 0.4);
+}
 
-   .form_comment::placeholder {
-       color: rgba(46, 47, 66, 0.4);
-   }
+.form_comment:focus {
+    border-color: #4D5AE5;
+    outline-color: transparent;
+    outline-offset: 4px;
 
-   .form_comment:focus {
-       border-color: #4D5AE5;
-       outline-color: transparent;
-       outline-offset: 4px;
+}
 
-   }
+.checkbox_cont {
+    margin-bottom: 24px;
+}
 
-   .checkbox_cont {
-       margin-bottom: 24px;
-   }
 .reviev-form-checkbox-label {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
 }
+
 .checkbox_span {
     width: 16px;
     height: 16px;
@@ -1000,21 +993,12 @@ input {
     background-color: #4D5AE5;
     border: none;
     border-radius: 4px;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    cursor: pointer;
-    border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
-
-
 .policy_icon {
- display: block;
+    display: block;
     width: 16px;
     height: 16px;
     stroke-width: 1px;

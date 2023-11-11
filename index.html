@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -519,7 +519,8 @@
                     Subscribe
                     <svg class="sub_icon" width="24" height="24">
                         <use href="./images/icons.svg#icon-Frame">
-                        </use></svg>
+                        </use>
+                    </svg>
                 </button>
             </form>
         </div>
@@ -531,7 +532,7 @@
         <button
                 class="modal_close_btn"
                 type="button"
-                aria-label="modal close button" width="18" height="24">
+                aria-label="modal close button">
             <svg class="icon-close"
                  width="8"
                  height="8">
@@ -548,15 +549,16 @@
                         for="user-name">Name</label>
                 <div class="review_form_input_wrapper">
                     <input
-                        class="input_field"
-                        type="text"
-                        name="user-name"
-                        id="user-name">
-                <svg class="review_form_field_icon">
-                    <use href="./images/icons.svg#icon-person"
-                         width="18"
-                         height="24"></use>
-                </svg></div>
+                            class="input_field"
+                            type="text"
+                            name="user-name"
+                            id="user-name">
+                    <svg class="review_form_field_icon" width="18" height="24">
+                        <use href="./images/icons.svg#icon-person"
+                             width="18"
+                             height="24"></use>
+                    </svg>
+                </div>
             </div>
 
 
@@ -568,15 +570,16 @@
                 <div
                         class="review_form_input_wrapper">
                     <input
-                        class="input_field"
-                        type="tel"
-                        name="user_tel"
-                        id="user_tel">
-                    <svg class="review_form_field_icon">
+                            class="input_field"
+                            type="tel"
+                            name="user_tel"
+                            id="user_tel">
+                    <svg class="review_form_field_icon" width="18" height="24">
                         <use href="./images/icons.svg#icon-phone"
                              width="18"
                              height="24"></use>
-                    </svg></div>
+                    </svg>
+                </div>
             </div>
 
 
@@ -586,21 +589,21 @@
                         class="lbl_name"
                         for="user-email">Email</label>
 
-                    <div
-                            class="review_form_input_wrapper">
-                        <input
-                                class="input_field"
-                                type="email"
-                                name="user-email"
-                                id="user-email"
-                                pattern="[a-zA-Zа-яА-ЯіІїЇєЄ'йЙ]">
-                        <svg class="review_form_field_icon">
-                            <use
-                                    href="./images/icons.svg#icon-email"
-                                    width="18"
-                                    height="18"></use>
-                        </svg>
-                    </div>
+                <div
+                        class="review_form_input_wrapper">
+                    <input
+                            class="input_field"
+                            type="email"
+                            name="user-email"
+                            id="user-email"
+                            pattern="[a-zA-Zа-яА-ЯіІїЇєЄ'йЙ]">
+                    <svg class="review_form_field_icon" width="18" height="24">
+                        <use
+                                href="./images/icons.svg#icon-email"
+                                width="18"
+                                height="18"></use>
+                    </svg>
+                </div>
             </div>
 
 
@@ -619,19 +622,18 @@
                 <input
                         class="reviev-form-checkbox visually-hidden"
                         type="checkbox"
-                        name="user-policy"
+                        name="user-privacy"
                         value="true"
-                        id="user-policy">
-                <label
-                        class="reviev-form-checkbox-label"
-                        for="user-policy">I accept the terms and conditions of the
-                    <a class="privacy-policy-link"
-                       href="">Privacy Policy</a>
-                    <span class="checkbox_span">
+                        id="user-privacy">
+                <label class="reviev-form-checkbox-label"
+                        for="user-privacy"> <span class="checkbox_span">
                         <svg class="checkbox_icon" width="10" height="8">
                             <use href="./images/icons.svg#icon-chekmark"></use>
                         </svg>
-                    </span></label>
+                    </span>I accept the terms and conditions of the
+                    <a class="privacy-policy-link"
+                       href="">Privacy Policy</a>
+                   </label>
             </div>
 
             <button class="reviev-form-btn" type="submit">Send</button>
