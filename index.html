@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -588,11 +588,14 @@
                 <label class="lbl_comment" for="user_comment">Comment</label>
                 <textarea class="form_comment" placeholder="Text input" name="user_comment" id="user_comment"></textarea>
             </div>
-            <div>
+            <div class="checkbox_cont">
                 <input type="checkbox" class="reviev-form-checkbox" name="user_policy" value="true" id="user_policy">
-                <label class="reviev-form-checkbox-label" for="user_policy">I accept the terms and conditions of the <a
+                <label
+                        class="reviev-form-checkbox-label"
+                        for="user_policy">I accept the terms and conditions of the <a href=""
                         class="privacy-policy-link">Privacy Policy</a></label>
             </div>
+
             <button class="reviev-form-btn" type="submit">Send</button>
 
 
