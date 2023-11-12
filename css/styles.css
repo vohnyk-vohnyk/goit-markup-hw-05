@@ -821,6 +821,12 @@ input {
 .modal_close_btn:hover .icon-close,
 .modal_close_btn:focus .icon-close {
     fill: #fff;
+    background-color: #404bbf;
+    border: none;
+   
+
+
+
 }
 
 
