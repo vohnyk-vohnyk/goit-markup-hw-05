@@ -823,12 +823,15 @@ input {
     fill: #fff;
     background-color: #404bbf;
     border: none;
-   
-
-
 
 }
 
+.modal_close_btn:hover,
+.modal_close_btn:focus {
+    fill: #fff;
+    background-color: #404bbf;
+    border: none;
+}
 
 
 .modal_text {
